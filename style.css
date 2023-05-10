@@ -125,15 +125,48 @@ button {
 .quote {
   padding-top: 100px;
   text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 .quote-name {
   font-weight: bold;
+  color: #1f2937;
   display: flex;
   justify-content: flex-end;
   margin-right: 300px;
   margin-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+}
+
+.bottom-box {
+  background-color: #3882f6;
+  display: flex;
+  padding: 50px;
+  margin: 100px;
+  justify-content: center;
+  gap: 100px;
+  border-radius: 8px;
+}
+
+.bottom-box-text {
+  color: white;
+}
+
+.bottom-box-header {
+  font-weight: bold;
+  margin: auto;
+}
+
+.bottom-subtext {
+  margin: auto;
+  padding-top: 4px;
+}
+
+.bottom-signup {
+  border-color: white;
 }
 
 footer {
